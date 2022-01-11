@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contaner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.541),rgba(0, 255, 157, 0.473));
+}
+
+.topbar{
+    display: grid;
+    grid-template-columns: 697px 697px auto;
+    width: 100%;
+}
+
+.titleBox{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 15px;
+    padding-left: 145px;
+}
+
+.textBox{
+    padding-top: 21px;
+    padding-left: 250px;
+}
+
+#text{
+    width: 50%;
+    height: 30px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+
+#addTodo{
+    width: 50px;
+    height: 30px;
+    margin-left: -4px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.todo{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    align-items: center;
+}
+
+.todo:hover{
+    box-shadow: 0px 0px 15px 4px #85f8d4;
+}
+
+#work{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.del{
+    margin-left: auto;
+    margin-right: 15px;
+}
